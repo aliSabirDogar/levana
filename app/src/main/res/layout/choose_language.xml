@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f7f7f7"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+
+
+
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textColor="@android:color/background_dark"
+
+
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+
+
+            android:text="בחר/י שפה"
+
+           android:textSize="20sp"
+
+            >
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="70dp"
+
+
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/heb"
+            android:layout_marginBottom="20dp"
+
+
+            android:gravity="center"
+
+
+            android:src="@drawable/isreail"
+
+
+            >
+
+        </ImageView>
+
+        <ImageView
+
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/eng"
+
+
+
+            android:gravity="center"
+
+
+            android:src="@drawable/usa"
+
+
+            >
+
+        </ImageView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
